@@ -1,0 +1,29 @@
+#nav-bar{ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background-color: rgb(250,239,238);
+    
+}
+
+.pic-wrapper{
+    position: relative;
+    max-width:70px;
+    padding: 0;
+    left: 1%;
+    top: 10%;
+}
+
+.pic-wrapper::before {
+    border-radius: 100%;
+    content: '';
+    background-image: linear-gradient(to right, rgb(169,73,104) 0%, rgb(237,190,45) 100%);
+    top: -5px;
+    left: -5px;
+    bottom: -3px;
+    right: -5px;
+    position: absolute;
+    z-index:-1;
+}
