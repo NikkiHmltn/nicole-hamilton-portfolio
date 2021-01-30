@@ -1,5 +1,5 @@
 import React from 'react';
-import './Intro.css'
+import './css/Intro.css'
 import {Link} from 'react-router-dom'
 
 export default function Intro() {

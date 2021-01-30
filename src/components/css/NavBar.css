@@ -22,8 +22,35 @@
     background-image: linear-gradient(to right, rgb(169,73,104) 0%, rgb(237,190,45) 100%);
     top: -5px;
     left: -5px;
-    bottom: -3px;
+    bottom: -5px;
     right: -5px;
     position: absolute;
     z-index:-1;
+}
+
+.nav-title {
+    position: absolute;
+    top: 33px;
+    left: 15em;
+}
+
+.resume {
+    position: absolute;
+    top: 13px;
+    right: 5em;
+    padding: 20px;
+    margin: 10px;
+}
+
+.about {
+    position: absolute;
+    top: 13px;
+    right: 10em;
+    padding: 20px;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }

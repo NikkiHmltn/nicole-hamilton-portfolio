@@ -1,0 +1,45 @@
+.project-one {
+    border: 2px solid black;
+    width: 90%;
+    margin: 0 auto;
+    height: 454px;
+}
+
+.project-one img {
+    height: 450px;
+    float: right;
+    border-radius: 5%;
+}
+
+.project-two {
+    border: 2px solid black;
+    width: 90%;
+    margin: 0 auto;
+    height: 454px;
+}
+
+.project-two img {
+    height: 450px;
+    float: left;
+    border-radius: 5%;
+}
+
+.project-three {
+    border: 2px solid black;
+    width: 90%;
+    margin: 0 auto;
+    height: 454px;
+}
+
+.project-three img {
+    height: 450px;
+    float: right;
+    border-radius: 5%;
+}
+
+.project-four {
+    border: 2px solid black;
+    width: 80%;
+    margin: 0 auto;
+    height: 400px;
+}

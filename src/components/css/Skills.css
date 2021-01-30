@@ -1,0 +1,32 @@
+.skills-box {
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.front-skills {
+    border: solid grey 1px;
+    border-radius: 5%;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+}
+
+.backend-skills {
+    border: solid grey 1px;
+    border-radius: 5%;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+}
+
+.other-skills {
+    border: solid grey 1px;
+    border-radius: 5%;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    height: 430px;
+}

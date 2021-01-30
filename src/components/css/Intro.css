@@ -17,7 +17,7 @@
         rgba(255, 202, 202, 0),
         rgba(0, 0, 0, 0.5)
         ),
-        url('./imgs/schonbrungloriette.jpg');
+        url('../imgs/schonbrungloriette.jpg');
     background-size: cover;
 }
 
