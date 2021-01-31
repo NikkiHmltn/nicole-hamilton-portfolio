@@ -5,6 +5,13 @@
     justify-content: center;
 }
 
+.title-skills {
+    border-bottom: solid 2px black;
+    width: 500px;
+    margin: 0px auto;
+    padding-top: 80px;
+}
+
 .front-skills {
     border: solid grey 1px;
     border-radius: 5%;

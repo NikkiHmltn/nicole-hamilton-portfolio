@@ -5,7 +5,10 @@ export default class Skills extends Component {
     render(){
         return(
             <div>
-                <h2 style={{borderBottom: 'solid 2px black'}}> Skills </h2>
+                <div className="title-skills">
+                    <h2> Skills </h2>
+                </div>
+                
                 <div class="skills-box">
                     
                     <div className="front-skills">

@@ -9,6 +9,9 @@ export default class ContactMe extends Component {
                 <div>
                     <h3 className="contact-title"> Contact</h3>
                 </div>
+                <p className="text-contact">
+                    If you feel like we'd work well together, or want to talk about fiber arts, video games, or Mexican food, please send me a message! I would love to hear from you. 
+                </p>
                 <div className="form-holder">
                     <form action="emailto:nikkihmltn1@yahoo.com"  id="contact-form" method="POST">
                         <div className="form-group">

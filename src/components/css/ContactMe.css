@@ -9,6 +9,23 @@
     border-bottom: 2px solid black;
     margin: 0 auto;
     padding: 10px;
-    padding-top: 20px;
+    padding-top: 30px;
     max-width: 150px;
+}
+
+.text-contact {
+    padding: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: pink;
+    border: 1px solid pink;
+}
+
+.btn:hover {
+    background-color: white;
+    color: hotpink;
+    border: 1px solid pink;
 }

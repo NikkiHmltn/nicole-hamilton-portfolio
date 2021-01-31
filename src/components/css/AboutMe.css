@@ -1,28 +1,30 @@
 .about-me {
     width: 700px;
     padding: 50px;
-    margin: 50px auto;
+    margin: 50px auto 0;
 }
 
 .main-content{
-    background-color: black;
     width: 100%;
 }
 
 .about-section {
-    background-color: pink;
+    background-color: white;
 }
 
 .testimonial-section {
     background-color: aliceblue;
+    padding: 2rem;
+    background-image: url('../../components/imgs/background.jpg');
 }
 
 .skills-section{
-    background-color: pink;
+    background-color: white;
+    margin-bottom: 80px;
 }
 
 .projects-section {
-    background-color: aliceblue;
+    background-color: pink;
 }
 
 .contact-section {

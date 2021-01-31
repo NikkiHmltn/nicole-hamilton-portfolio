@@ -1,0 +1,22 @@
+.testimonials {
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 2rem;
+    background-color: rgb(243, 241, 241, 0.80);
+    border-radius: 13%;
+    max-height: 400px;
+    display: flex;
+}
+
+.test-header {
+    padding: 10px;
+    text-align: left;
+    border-right: solid 1px grey;
+}
+
+.test-words {
+    padding: 10px;
+    padding-bottom: 0;
+    margin-left: 20px;
+    
+}

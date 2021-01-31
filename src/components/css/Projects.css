@@ -1,14 +1,19 @@
+@font-face {
+    font-family: Lato;
+    src: url('../fonts/Lato-Regular.otf')
+}
+
 .tech-used {
-    border: 1px solid grey;
     border-radius: 10%;
-    padding: 3px;
+    padding: 5px;
     margin: 0.5rem;
     max-width: 400px;
+    background-color: white;
+    font-family: Lato;
 }
 
 .project-one {
-    
-    width: 90%;
+    width: 78%;
     margin: 4rem auto;
     height: 454px;
 }
@@ -29,7 +34,7 @@
     height: 450px;
     float: left;
     border-radius: 5%;
-    width: 50%;
+    width: 55%;
 }
 
 .project-three {
@@ -43,7 +48,7 @@
     height: 450px;
     float: right;
     border-radius: 5%;
-    width: 55%;
+    width: 60%;
 }
 
 .project-four {
@@ -55,5 +60,5 @@
     height: 450px;
     float: left;
     border-radius: 5%;
-    width: 55%;
+    width: 60%;
 }
