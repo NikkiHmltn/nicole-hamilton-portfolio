@@ -12,11 +12,11 @@ export default function Nav() {
                 <div className="container-fluid" id="nav-bar">
                     <div className="pic-wrapper">
                         <Link className="navbar-brand" to="/">
-                            <img src={logo} alt="" width="70" height="70" id="nav-bar-pic"className="d-inline-block align-top" style={{borderRadius: "50%"}}/>
+                            <img src={logo} alt="" width="70" height="70" id="nav-bar-pic"className="d-inline-block align-top" />
                         </Link>
                     </div>
                     <div className="nav-title">
-                        <p style={{marginLeft: "-120px", fontSize: "25px"}}>nicolehamilton.me</p>
+                        <p>nicolehamilton.me</p>
                     </div>
                     <div className='navbar-nav mx-auto resume' >
                         <NavLink to="/resume">
