@@ -4,6 +4,58 @@
     left: 0;
     right: 0;
     height: 100px;
-    background-color: rgb(250,239,238);
+    background-color: rgb(111, 155, 176);
     z-index: 1;
+}
+
+#nav-bar-pic {
+    border-radius: 50%;
+}
+
+a {
+    color: rgb(66,49,114);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(105, 66,123)
+}
+
+.nav-title {
+    font-size: 30px;
+}
+
+.resume {
+    font-size: 20px;
+    position: absolute;
+    margin: 0 auto;
+    right: 11.5em;
+}
+
+.about {
+    font-size: 20px;
+}
+
+.about:hover {
+    cursor: pointer;
+}
+
+.project {
+    font-size: 20px;
+    position: absolute;
+    right: 23rem;
+}
+
+.project:hover {
+    cursor: pointer;
+}
+
+.contact {
+    font-size: 20px;
+    position: absolute;
+    right: 4rem;
+}
+
+.contact:hover {
+    cursor: pointer;
 }

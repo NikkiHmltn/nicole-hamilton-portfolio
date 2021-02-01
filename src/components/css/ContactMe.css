@@ -28,12 +28,12 @@
 }
 
 .btn {
-    background-color: pink;
-    border: 1px solid pink;
+    background-color:  rgb(66,49,114);
+    border: 1px solid  rgb(66,49,114);
 }
 
 .btn:hover {
     background-color: white;
-    color: hotpink;
-    border: 1px solid pink;
+    color: rgb(105, 66,123);
+    border: 1px solid  rgb(66,49,114);
 }
