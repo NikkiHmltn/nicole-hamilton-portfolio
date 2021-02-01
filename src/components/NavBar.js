@@ -3,6 +3,7 @@ import {NavLink} from 'react-router-dom'
 import logo from './imgs/default.png'
 import {Link} from 'react-scroll'
 import './css/NavBar.css'
+import resume from './imgs/NicoleHamiltonResume.pdf'
 
 
 export default function Nav() {
@@ -19,9 +20,9 @@ export default function Nav() {
                         <p>nicolehamilton.me</p>
                     </div>
                     <div className='navbar-nav mx-auto resume' >
-                        <NavLink to="/resume">
+                        <a href={resume} target="_blank">
                             <p>resume</p>
-                        </NavLink>
+                        </a>
                     </div>
                     <div className='navbar-nav mx-auto about'>
                     <Link 
