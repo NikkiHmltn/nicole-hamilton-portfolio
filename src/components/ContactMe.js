@@ -76,7 +76,7 @@ export default class ContactMe extends Component {
                             <textarea className="form-control" placeholder="Message" rows="5" id="message" name="message" value={this.state.message} onChange={this.handleChange}></textarea>
                         </div>
                         <br></br>
-                        <ReCAPTCHA sitekey={process.env.REACT_APP_RECAPTCHA_KEY} onChange={this.handleSubmit} />
+                        <ReCAPTCHA style={{padding: "10px"}} sitekey={process.env.REACT_APP_RECAPTCHA_KEY} onChange={this.handleSubmit} />
                         {/* <div className="g-recaptcha" data-sitekey={process.env.REACT_APP_RECAPTCHA_KEY}></div> */}
                         <button 
                             type="button" 
