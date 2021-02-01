@@ -1,7 +1,45 @@
 import React, {Component} from 'react'
 import './css/ContactMe.css'
 
+
+
 export default class ContactMe extends Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            message: "",
+            name: '', 
+            email: ''
+        }
+        this.handleChange = this.handleChange.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
+    }
+
+    handleChange(e) {
+        const {name, value} = e.target
+        this.setState({[name]: [value]})
+    }
+
+    handleSubmit(e) {
+        e.preventDefault()
+
+        let messageParams = {
+            message: this.state.message, 
+            from_name: this.state.name,
+            reply_to: this.state.email,
+            to_name: 'Nicole'
+        }
+        this.sendFeedback(messageParams)
+    }
+
+    sendFeedback(messageParams) {
+        window.emailjs.send(
+            'service_eb5o1bg', "template_t5fkut4", messageParams
+        ).then(res => {
+            console.log('Email successful!', res)
+        }).catch(err => console.error('Oops something went wrong!', err))
+    }
+
     render(){
         return(
             <div className="contact-content">
@@ -24,20 +62,20 @@ export default class ContactMe extends Component {
                     If you feel like we'd work well together, or want to talk about fiber arts, video games, or Mexican food, please send me a message! I would love to hear from you. 
                 </p>
                 <div className="form-holder">
-                    <form action="emailto:nikkihmltn1@yahoo.com"  id="contact-form" method="POST">
+                    <form id="contact-form" >
                         <div className="form-group">
-                            <input type="text" placeholder="Name" className="form-control" />
+                            <input type="text" placeholder="Name" className="form-control" id="name" name="name" value={this.state.name} onChange={this.handleChange} />
                         </div>
                         <br></br>
                         <div className="form-group">
-                            <input type="email" placeholder="Email" className="form-control" aria-describedby="emailHelp" />
+                            <input type="email" placeholder="Email" className="form-control" aria-describedby="emailHelp" id="email" name="email" value={this.state.email} onChange={this.handleChange}/>
                         </div>
                         <br></br>
                         <div className="form-group">
-                            <textarea className="form-control" placeholder="Message" rows="5"></textarea>
+                            <textarea className="form-control" placeholder="Message" rows="5" id="message" name="message" value={this.state.message} onChange={this.handleChange}></textarea>
                         </div>
                         <br></br>
-                        <button type="submit" className="btn btn-danger">Submit</button>
+                        <button type="button" className="btn btn-danger" value="Submit" onClick={this.handleSubmit}>Submit</button>
                     </form>
                 </div>
                 
