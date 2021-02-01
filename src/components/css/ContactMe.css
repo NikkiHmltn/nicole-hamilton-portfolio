@@ -4,13 +4,21 @@
     margin: 0 auto;
 }
 
+.contact-links {
+    padding: 15px;
+}
+
+.contact-links svg {
+    margin: 0 10px 0 0;
+    
+}
 
 .contact-title {
     border-bottom: 2px solid black;
     margin: 0 auto;
     padding: 10px;
     padding-top: 30px;
-    max-width: 150px;
+    max-width: 200px;
 }
 
 .text-contact {
