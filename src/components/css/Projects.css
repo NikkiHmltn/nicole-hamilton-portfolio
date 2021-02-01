@@ -1,64 +1,109 @@
-@font-face {
-    font-family: Lato;
-    src: url('../fonts/Lato-Regular.otf')
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body {
+    font-family: "Lato";
 }
 
+.project-holder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-title {
+    border-bottom: 2px solid black;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.text {
+    width: 80%;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: grey;
+    
+}
+
+.project-one:hover .overlay {
+    opacity: 1;
+}
+.project-two:hover .overlay {
+    opacity: 1;
+}
+.project-three:hover .overlay {
+    opacity: 1;
+}
+.project-four:hover .overlay {
+    opacity: 1;
+}
 .tech-used {
     border-radius: 10%;
     padding: 5px;
     margin: 0.5rem;
     max-width: 400px;
-    background-color: white;
+    background-color: pink;
     font-family: Lato;
 }
 
 .project-one {
-    width: 78%;
-    margin: 4rem auto;
+    margin: 3rem auto;
     height: 454px;
+    position: relative;
+    width: 45%;
+}
+.project-one img {
+    width: 100%;
+    height: 100%;
 }
 
-.project-one img {
-    height: 450px;
-    float: right;
-    border-radius: 5%;
-}
 
 .project-two {
-    width: 90%;
-    margin: 0 auto;
+    margin: 3rem auto;
     height: 454px;
+    position: relative;
+    width: 45%;
 }
-
 .project-two img {
-    height: 450px;
-    float: left;
-    border-radius: 5%;
-    width: 55%;
+    width: 100%;
+    height: 100%;
 }
 
 .project-three {
-    
-    width: 90%;
-    margin: 4rem auto;
+    margin: 3rem auto;
     height: 454px;
+    position: relative;
+    width: 45%;
 }
 
 .project-three img {
-    height: 450px;
-    float: right;
-    border-radius: 5%;
-    width: 60%;
+    width: 100%;
+    height: 100%;
 }
 
 .project-four {
-    width: 90%;
-    margin: 4rem auto;
+    margin: 3rem auto;
     height: 454px;
+    position: relative;
+    width: 45%;
 }
+
 .project-four img {
-    height: 450px;
-    float: left;
-    border-radius: 5%;
-    width: 60%;
+    width: 100%;
+    height: 100%;
 }

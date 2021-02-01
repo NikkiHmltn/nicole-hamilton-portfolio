@@ -7,7 +7,7 @@ export default class Testimonials extends Component {
             <div className="testimonials">
 
                 <div className="test-header"> 
-                    <h4> Simone Schneeburg</h4> <h6><em>(Full-Stack Engineer)</em></h6>
+                    <h4> Simone Schneeberg</h4> <h6><em>(Full-Stack Engineer)</em></h6>
                 </div>
                 <div className="test-words">
                     <p><em>
