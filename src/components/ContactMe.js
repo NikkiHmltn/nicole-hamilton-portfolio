@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import './css/ContactMe.css'
-
-
+import ReCAPTCHA from 'react-google-recaptcha'
 
 export default class ContactMe extends Component {
     constructor(props) {
@@ -10,6 +9,7 @@ export default class ContactMe extends Component {
             message: "",
             name: '', 
             email: ''
+
         }
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
@@ -20,14 +20,15 @@ export default class ContactMe extends Component {
         this.setState({[name]: [value]})
     }
 
-    handleSubmit(e) {
+    handleSubmit(e, captchaValue) {
         e.preventDefault()
 
         let messageParams = {
             message: this.state.message, 
             from_name: this.state.name,
             reply_to: this.state.email,
-            to_name: 'Nicole'
+            to_name: 'Nicole',
+            'g-recaptcha-response': captchaValue
         }
         this.sendFeedback(messageParams)
     }
@@ -75,7 +76,13 @@ export default class ContactMe extends Component {
                             <textarea className="form-control" placeholder="Message" rows="5" id="message" name="message" value={this.state.message} onChange={this.handleChange}></textarea>
                         </div>
                         <br></br>
-                        <button type="button" className="btn btn-danger" value="Submit" onClick={this.handleSubmit}>Submit</button>
+                        <ReCAPTCHA sitekey={process.env.REACT_APP_RECAPTCHA_KEY} onChange={this.handleSubmit} />
+                        {/* <div className="g-recaptcha" data-sitekey={process.env.REACT_APP_RECAPTCHA_KEY}></div> */}
+                        <button 
+                            type="button" 
+                            className="btn btn-danger" 
+                            value="Submit" 
+                            onClick={this.handleSubmit}>Submit</button>
                     </form>
                 </div>
                 
