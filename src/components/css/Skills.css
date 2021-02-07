@@ -37,3 +37,39 @@
     width: 300px;
     height: 430px;
 }
+
+@media screen and (max-width: 600px) {
+    .skills-box {
+        flex-wrap: wrap;
+    }
+    
+    .title-skills {
+        width: 300px;
+    }
+    
+    .front-skills {
+        border: solid grey 1px;
+        border-radius: 5%;
+        margin: 20px;
+        padding: 20px;
+        width: 300px;
+        height: 400px;
+    }
+    
+    .backend-skills {
+        border: solid grey 1px;
+        border-radius: 5%;
+        margin: 20px;
+        padding: 20px;
+        width: 300px;
+    }
+    
+    .other-skills {
+        border: solid grey 1px;
+        border-radius: 5%;
+        margin: 20px;
+        padding: 20px;
+        width: 300px;
+        height: 430px;
+    }
+}

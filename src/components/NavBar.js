@@ -8,8 +8,8 @@ import resume from './imgs/NicoleHamiltonResume.pdf'
 export default function Nav() {
     return(
         <div >
-            <nav className="navbar navbar-light bg-light" >
-                <div className="container-fluid" id="nav-bar">
+            <nav className="navbar sticky-top navbar-light bg-light" >
+                <div className="container" id="nav-bar">
                     <div className="pic-wrapper">
                         <Link className="navbar-brand" to="/">
                             <img src={logo} alt="" width="70" height="70" id="nav-bar-pic"className="d-inline-block align-top" />

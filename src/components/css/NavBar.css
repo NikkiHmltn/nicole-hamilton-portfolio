@@ -29,7 +29,7 @@ a:hover {
     font-size: 20px;
     position: absolute;
     margin: 0 auto;
-    right: 11.5em;
+    right: 11em;
 }
 
 .about {
@@ -43,7 +43,7 @@ a:hover {
 .project {
     font-size: 20px;
     position: absolute;
-    right: 23rem;
+    right: 21rem;
 }
 
 .project:hover {
@@ -62,9 +62,13 @@ a:hover {
 @media screen and (max-width: 800px) {
     #nav-bar{ 
         height: 100px;
-        
+        position: relative;
     }
     
+    #nav-bar > .container{
+        max-width: 100%;
+    }
+
     .nav-title {
         font-size: 25px;
     }

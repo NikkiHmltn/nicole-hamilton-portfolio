@@ -22,9 +22,11 @@ export default class Projects extends Component {
                         <p>
                         A fun and silly text adventure game inspired by childhood text rpgs. textRPG is a short, role playing game where users have the ability to fight monsters and utilize an inventory system. Players follow quests to reach the end and beat the final boss. The game was built as a practice in vanilla JavaScript DOM manipulation. 
                         </p>
-                        <span className="tech-used">JavaScript</span>
-                        <span className="tech-used">CSS3</span>
-                        <span className="tech-used">HTML5</span>
+                        <div className="tech-holder">   
+                            <span className="tech-used">JavaScript</span>
+                            <span className="tech-used">CSS3</span>
+                            <span className="tech-used">HTML5</span>
+                        </div>
                         <br></br>
                         <br></br>
                         <br></br>
@@ -51,11 +53,14 @@ export default class Projects extends Component {
                             <p>
                             Bag of Holding is made for D&D 5e players who want to store quick character concepts. It stores information like a character's details and bio in the Postgres database, and a user has to be authenticated to create/change/view their characters. As a player myself, I was really inspired from sites like DiceCloud and Roll20. 
                             </p>
-                            <span className="tech-used">NodeJS</span>
-                            <span className="tech-used">Bootstrap</span>
-                            <span className="tech-used">HTML5</span>
-                            <span className="tech-used">PostgreSQL</span>
-                            <span className="tech-used">Express</span>
+                            <div className="tech-holder">
+                                <span className="tech-used">NodeJS</span>
+                                <span className="tech-used">Bootstrap</span>
+                                <span className="tech-used">HTML5</span>
+                                <span className="tech-used">PostgreSQL</span>
+                                <span className="tech-used">Express</span>
+                            </div>
+
                             <br></br>
                             <br></br>
                             <a href="https://my-bag-of-holding.herokuapp.com" target="_blank" style={{margin: "10px"}}>
@@ -83,11 +88,14 @@ export default class Projects extends Component {
                             <p>
                             PDR is a bug tracking site designed for software companies to get rug reports from their customer base, then manage those bugs internally. A company can sign themselves up where they will then be granted an access key to give to their team so they can also sign up. Using Socket.io, customers can speak to devs if they have additional questions or info about their bugs reported, and dev and admin teams can talk privately amongst each other in a chat channel. This app uses a MERN stack, connecting to MongoDB through Mongoose. 
                             </p>
-                            <span className="tech-used">Bootstrap</span>
-                            <span className="tech-used">HTML5</span>
-                            <span className="tech-used">MongoDB</span>
-                            <span className="tech-used">React</span>
-                            <span className="tech-used">Socket.io</span>
+                            <div className="tech-holder">
+                                <span className="tech-used">Bootstrap</span>
+                                <span className="tech-used">HTML5</span>
+                                <span className="tech-used">MongoDB</span>
+                                <span className="tech-used">React</span>
+                                <span className="tech-used">Socket.io</span>
+                            </div>
+
                             <br></br>
                             <br></br>
                             <a href="https://pestdamagereport.herokuapp.com" target="_blank" style={{margin: "10px"}}>
@@ -116,11 +124,14 @@ export default class Projects extends Component {
                             <br></br>
                             Users may wish to share this with their friends, while there is a unique code generated for each bracket, I created a discord bot to make it easier for them. A user can add the bot to their server and vote with the bot without ever coming to the app. Results are updated as the bot is connected to the backend API.
                             </p>
-                            <span className="tech-used">Materialize</span>
-                            <span className="tech-used">React</span>
-                            <span className="tech-used">DiscordJs</span>
-                            <span className="tech-used">Flask</span>
-                            <span className="tech-used">Socket.io</span>
+                            <div className="tech-holder">
+                                <span className="tech-used">Materialize</span>
+                                <span className="tech-used">React</span>
+                                <span className="tech-used">DiscordJs</span>
+                                <span className="tech-used">Flask</span>
+                                <span className="tech-used">Socket.io</span>
+                            </div>
+
                             <br></br>
                             <br></br>
                             <a href="https://tier-breaker.herokuapp.com" target="_blank" style={{margin: "10px"}}>

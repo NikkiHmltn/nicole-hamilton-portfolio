@@ -107,3 +107,16 @@ body {
     width: 100%;
     height: 100%;
 }
+
+@media screen and (max-width: 600px) {
+    .project-holder {
+        flex-direction: column;
+    }
+    .tech-holder {
+        display: flex;
+        flex-direction: column;
+    }
+    .tech-used {
+        max-width: 70%;
+    }
+}
