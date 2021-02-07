@@ -105,3 +105,39 @@
         border-color: orange; 
     }
 }
+
+@media(max-width: 600px) {
+    .intro-border-outter{
+        width: 200px;
+        height: 300px;
+    }
+    
+    .intro-border-inner { 
+        width: 185px;
+        height: 285px;
+    }
+
+    .intro-text {
+        font-size: 15px;
+        padding: 10%;
+    }
+
+    .intro-head {
+        width: 160px;
+        font-size: 20x;
+    }
+
+    #intro-link{
+        font-size: 20px;
+        width: 170px;
+        padding-top: 10%;
+    }
+    .intro-pic{
+        background-image: 
+            linear-gradient(
+            rgba(255, 202, 202, 0),
+            rgba(0, 0, 0, 0.5)
+            ),
+            url('../imgs/schonbrungloriette-sm.jpg');
+    }
+}

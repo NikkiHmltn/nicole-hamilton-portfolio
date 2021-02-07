@@ -18,6 +18,7 @@ export default function Nav() {
                     <div className="nav-title">
                         <p>nicolehamilton.me</p>
                     </div>
+                    
                     <div className='navbar-nav mx-auto resume' >
                         <a href={resume} target="_blank">
                             <p>resume</p>

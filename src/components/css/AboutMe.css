@@ -36,3 +36,17 @@
 .contact-section {
     background-color: grey;
 }
+
+@media screen and (max-width: 800px) {
+    .about-me {
+        width: 100%;
+        padding: 50px;
+        margin: 50px auto 0;
+    }
+    .about-title {
+        border-bottom: 2px solid black;
+        max-width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
