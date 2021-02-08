@@ -114,9 +114,49 @@ body {
     }
     .tech-holder {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .tech-used {
         max-width: 70%;
+        max-width: 90px;
+        margin: 3px auto;
+    }
+    
+    
+    .text {
+        width: 80%;
+        color: white;
+        font-size: 11px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    .project-one {
+        margin: 1rem auto;
+        height: 400px;
+        width: 85%;
+    }
+    .project-two {
+        margin: 1rem auto;
+        height: 400px;
+        width: 85%;
+    }
+    
+    .project-three {
+        margin: 1rem auto;
+        height: 400px;
+        width: 85%;
+    }
+    .project-four {
+        margin: 1rem auto;
+        height: 400px;
+        width: 85%;
     }
 }
