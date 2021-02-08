@@ -34,6 +34,7 @@ a:hover {
 
 .about {
     font-size: 20px;
+    right: 20rem;
 }
 
 .about:hover {
@@ -70,15 +71,15 @@ a:hover {
     }
 
     .nav-title {
-        font-size: 25px;
+        font-size: 0px;
     }
     
 
     .resume {
-        font-size: 20px;
+        font-size: 15px;
         position: absolute;
         margin: 0 auto;
-        right: 7em;
+        right: 8em;
     }
 
     .about {
@@ -86,13 +87,13 @@ a:hover {
     }
 
     .project {
-        font-size: 20px;
+        font-size: 15px;
         position: absolute;
-        right: 14rem;
+        right: 12rem;
     }
 
     .contact {
-        font-size: 20px;
+        font-size: 15px;
         position: absolute;
         right: 2rem;
     }
