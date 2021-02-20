@@ -13,7 +13,7 @@ export default function Intro() {
         <div className="intro-border-outter">
             <div className="intro-border-inner">
                 <h1 className="intro-head">
-                    <strong>Hi there</strong>, my name is <strong>Nicole</strong>.
+                    <strong>Hi there</strong>, my name is <strong>Nicole</strong>. I'm a <strong>Software Engineer</strong> from NV.
                     <br></br>
                     <h2 className="intro-text">Nice to meet you!</h2>
                 </h1>
