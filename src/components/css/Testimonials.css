@@ -1,17 +1,24 @@
-.testimonials {
-    max-width: 500px;
+.testimonials{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.testimonial {
+    max-width: 30%;
     margin: 10px auto;
-    padding: 2rem;
+    padding: 1.5rem;
     background-color: rgb(243, 241, 241, 0.80);
     border-radius: 13%;
-    max-height: 400px;
-    display: flex;
+    box-shadow: 10px 10px 30px 30px rgb(243, 241, 241, 0.30);
+    
 }
 
 .test-header {
     padding: 10px;
     text-align: left;
-    border-right: solid 1px grey;
+    border-bottom: solid 1px grey;
 }
 
 .test-words {

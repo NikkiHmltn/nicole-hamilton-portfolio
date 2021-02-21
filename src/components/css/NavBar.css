@@ -23,18 +23,21 @@ a:hover {
 
 .nav-title {
     font-size: 30px;
+    position: absolute;
+    left: 10%;
 }
 
 .resume {
     font-size: 20px;
     position: absolute;
     margin: 0 auto;
-    right: 11em;
+    right: 23%;
 }
 
 .about {
     font-size: 20px;
-    right: 20rem;
+    position: absolute;
+    right: 32%;
 }
 
 .about:hover {
@@ -44,7 +47,7 @@ a:hover {
 .project {
     font-size: 20px;
     position: absolute;
-    right: 21rem;
+    right: 13%;
 }
 
 .project:hover {
@@ -54,7 +57,7 @@ a:hover {
 .contact {
     font-size: 20px;
     position: absolute;
-    right: 4rem;
+    right: 2%;
 }
 
 .contact:hover {
