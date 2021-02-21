@@ -59,3 +59,10 @@
 .card:hover~.card{
     transform: translateX(130px);
 }
+
+@media screen and (max-width: 800px) {
+    .working-on-info {
+        width: 90%;
+       
+    }
+}
