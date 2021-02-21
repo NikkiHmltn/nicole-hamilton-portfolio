@@ -5,6 +5,7 @@ import Projects from './Projects'
 import Testimonials from './Testimonials'
 import Skills from './Skills'
 import NavBar from './NavBar'
+import Working from './Working'
 import './css/AboutMe.css'
 import me from './imgs/selfie.jpeg'
 
@@ -34,6 +35,9 @@ export default class AboutMe extends Component {
                     <Element className="projects-section" id="projects-section">
                         <Projects/>
                     </Element>
+                    <div>
+                        <Working />
+                    </div>
                     <Element className="contact-section" id="projects-section">
                         <ContactMe />
                     </Element>
