@@ -20,7 +20,7 @@ export default function Nav() {
                     </div>
                     
                     <div className='navbar-nav mx-auto resume' >
-                        <a href={resume} target="_blank">
+                        <a href={resume} target="_blank" rel="noreferrer">
                             <p>resume</p>
                         </a>
                     </div>

@@ -37,6 +37,21 @@
     background-color: grey;
 }
 
+.fade-in {
+    animation: fade ease 3s;
+}
+
+@keyframes fade {
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 100%;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .about-me {
         width: 100%;

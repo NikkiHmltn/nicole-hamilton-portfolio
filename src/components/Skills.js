@@ -18,7 +18,6 @@ export default class Skills extends Component {
                         <h4 style={{borderBottom: 'solid 2px black', padding: '13px'}}>Frontend</h4>
                             <h4>HTML</h4>
                             <h5>CSS</h5>
-                            <h6>SASS</h6>
                             <h3>Bootstrap</h3>
                             <h6>Express</h6>
                             <h4>JavaScript</h4>
@@ -59,7 +58,6 @@ export default class Skills extends Component {
                             <h6>Object Oriented Programming</h6>
                             <h6>Team Coordination</h6>
                             <h4>Project Management</h4>
-                            <h6>Agile/Scrum</h6>
                         
                     </div>
                 </div>

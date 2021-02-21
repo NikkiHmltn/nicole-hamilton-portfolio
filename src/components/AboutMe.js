@@ -14,10 +14,10 @@ export default class AboutMe extends Component {
         return(
             <div>
                 <NavBar />
-                <div className="main-content">
+                <div className="main-content ">
                     <Element className="about-section" id="about-section">
-                        <div className="about-me" id="about-me">
-                        <img src={me} width="150" height="150" style={{borderRadius: "50%"}}/>
+                        <div className="about-me fade-in" id="about-me">
+                        <img src={me} width="150" height="150" style={{borderRadius: "50%"}} alt=""/>
                         <h1 className="about-title"> About Me </h1>
                         <p >I’m a software engineer passionate about connecting humanity through empathy and technology; everyone has a different story to tell, and I want to provide that service to people through my coding. I strive to create organized and meaningful code through stubborn determination and creativity. With a background in Humanities and civil service, I provide critical thinking to projects and strive for team connection and communication to get the job done.
                         </p>
@@ -26,19 +26,19 @@ export default class AboutMe extends Component {
                         </p>
                     </div>
                     </Element>
-                    <div className="testimonial-section">
+                    <div className="testimonial-section fade-in">
                         <Testimonials/>
                     </div>
-                    <div className="skills-section">
+                    <div className="skills-section fade-in">
                         <Skills/>
                     </div>
-                    <Element className="projects-section" id="projects-section">
+                    <Element className="projects-section fade-in" id="projects-section">
                         <Projects/>
                     </Element>
                     <div>
                         <Working />
                     </div>
-                    <Element className="contact-section" id="projects-section">
+                    <Element className="contact-section fade-in" id="projects-section">
                         <ContactMe />
                     </Element>
                     
